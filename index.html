@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img-zapatillas de cristal.png" sizes="32x32">
     <meta name="description" content="venta de zapatillas">
     <meta name="author" content="Mirian">
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    <title>ZAPATILLAS DE CRISTAL</title>
+    <title>ZAPATILLAS dDE CRISTAL</title>
 
     <style>
-        
-        
         body {
-            background-color: #41effc ;
+            background-color: #ffe4e6;
             color: #333333;
         }
-        h1, h2, h3 {
-            color: #a948ae;
+
+        h1,
+        h2,
+        h3 {
+            color: #d06db3;
         }
+
         .navbar {
-            background-color: #ff8bf5;
+            background-color: #f7b2d9;
         }
+
         .navbar a {
-            color: rgb(255, 255, 255);
-        }
-        .btn-custom {
-            background-color: #ffa3f9;
             color: #fff;
         }
-        .btn-custom:hover {
-            background-color: #ff8bcf;
+
+        .btn-custom {
+            background-color: #ff80ac;
+            color: #fff;
         }
+
+        .btn-custom:hover {
+            background-color: #f06292;
+        }
+
         footer {
-            background-color: #ffa3ff;
+            background-color: #f7b2d9;
             color: #ffffff;
         }
-        .footer-links a {
-            color: #5a189a;
 
+        .footer-links a {
+            color: #d06db3;
             margin-right: 10px;
         }
+
         .product img {
             border-radius: 10px;
+            border: 2px solid #d06db3;
+        }
+
+        h3 {
+            font-size: 1.5rem; /* Aumentar tamaño de letra */
+        }
+
+        .highlight {
+            font-size: 1.8rem; /* Aumentar tamaño de letra */
+            color: #d06db3;
+        }
+
+        .fs-4 {
+            font-size: 1.25rem;
         }
     </style>
 </head>
@@ -56,8 +79,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="img-zapatillas de cristal.png" width="90" alt="logozapatillas">
-                ZAPATILLAS DE CRISTAL
+                <img src="img-zapatillas de cristal.png" width="100" alt="logozapatillas">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -84,43 +106,43 @@
     <!-- Sección Nosotros -->
     <section id="nosotros" class="container text-center my-5">
         <h1>Nosotros</h1>
-        <p>¡Bienvenida a un mundo de estilo y comodidad donde cada paso cuenta y tu esencia se refleja en cada diseño!</p>
-        <p>Tenemos 6 años de experiencia en la creación de zapatillas que combinan elegancia, confort y calidad. Innovamos constantemente para ofrecer lo mejor a la mujer moderna.</p>
+        <p class="fs-4">¡Bienvenida a un mundo de estilo y comodidad donde cada paso cuenta y tu esencia se refleja en cada diseño!</p>
+        <p class="fs-4">Tenemos 6 años de experiencia en la creación de zapatillas que combinan elegancia, confort y calidad. Innovamos constantemente para ofrecer lo mejor a la mujer moderna.</p>
 
         <div class="row my-3">
             <div class="col-md-4">
-                <h3>100%</h3>
+                <h3 class="highlight">100%</h3>
                 <p>Clientes satisfechos</p>
             </div>
             <div class="col-md-4">
-                <h3>6</h3>
+                <h3 class="highlight">6</h3>
                 <p>Años de experiencia</p>
             </div>
             <div class="col-md-4">
-                <h3>40</h3>
+                <h3 class="highlight">40</h3>
                 <p>Envíos por semana</p>
             </div>
         </div>
     </section>
 
     <!-- Sección Productos -->
-    <section id="productos" class="container my-5">
+    <main id="productos" class="container my-5">
         <h1 class="text-center">Nuestros Productos</h1>
         <div class="row">
             <!-- Primer producto -->
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center card p-3">
                 <a href="https://pe.tommy.com/zapatillas-para-dama-fw0fw07384ybs/p?srsltid=AfmBOoqNqXaqrfKy5P8IB59fbZrwmE9L-tZVB8a-USBo6g4e-MtHOnSC" target="_blank">
-                    <img src="https://cdn17.nnnow.com/web-images/large/styles/12YKBJZEO55/1694690207456/2.jpg" alt="Zapatilla Modelo 1" width="300px">
+                    <img src="https://cdn17.nnnow.com/web-images/large/styles/12YKBJZEO55/1694690207456/2.jpg" alt="Zapatilla Modelo 1" class="img-fluid">
                     <h3>ZAPATILLAS ELEVATED EMBOSSED RUNNER GOLD</h3>
                 </a>
                 <p>Precio: S/149.99</p>
                 <p>Estas zapatillas de estilo running combinan paneles de malla y detalles de color que realzan el diseño atlético.</p>
             </div>
-            
+
             <!-- Segundo producto -->
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center card p-3">
                 <a href="https://pe.tommy.com/zapatillas-para-dama-fw0fw07297th2/p" target="_blank">
-                    <img src="https://img.eobuwie.cloud/eob_product_660w_880h(1/2/e/8/12e88c732f4ca665a2e2e748d5b866b21b009ecd_02_0000303035396.jpg,jpg)" alt="Zapatilla Modelo 2" width="300px">
+                    <img src="https://img.eobuwie.cloud/eob_product_660w_880h(1/2/e/8/12e88c732f4ca665a2e2e748d5b866b21b009ecd_02_0000303035396.jpg,jpg)" alt="Zapatilla Modelo 2" class="img-fluid">
                     <h3>ZAPATILLAS EMBOSSED COURT SNEAKER</h3>
                 </a>
                 <p>Precio: S/150.00</p>
@@ -128,16 +150,16 @@
             </div>
 
             <!-- Tercer producto -->
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center card p-3">
                 <a href="https://pe.tommy.com/zapatillas-para-dama-en0en02215bds/p" target="_blank">
-                    <img src="https://img.eobuwie.cloud/eob_product_660w_880h(1/a/b/3/1ab3acc5822fcb831f9f58865eed77f61963db2a_02_0000303033927_SW.jpg,jpg)" alt="Zapatilla Modelo 3" width="300px">
+                    <img src="https://img.eobuwie.cloud/eob_product_660w_880h(1/a/b/3/1ab3acc5822fcb831f9f58865eed77f61963db2a_02_0000303033927_SW.jpg,jpg)" alt="Zapatilla Modelo 3" class="img-fluid">
                     <h3>ZAPATILLAS TJW TRANSLUCENT RUNNER</h3>
                 </a>
                 <p>Precio: S/159.90</p>
                 <p>Zapatillas de running con paneles de malla translúcida y diseño alegre con toques de color.</p>
             </div>
         </div>
-    </section>
+    </main>
 
     <!-- Sección Contacto -->
     <section id="contacto" class="container my-5">
@@ -169,14 +191,23 @@
         </form>
     </section>
 
-   
-    <footer class="text-center py-3">
-        <p>Todos los derechos reservados &copy;</p>
+    <!-- Footer -->
+    <footer class="text-center py-4">
         <div class="footer-links">
-            <a href="https://www.instagram.com/zapatillas_de_cristal_" target="_blank">Instagram</a>
-            <a href="https://www.tiktok.com/@zapatillathecristal" target="_blank">Tiktok</a>
-            <a href="https://www.facebook.com/profile.php" target="_blank">Facebook</a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
         </div>
+        <p>&copy; 2024 Zapatillas de Cristal. Todos los derechos reservados.</p>
     </footer>
 
-    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+  
